@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+
+}
+
+header > nav > ul {
+  display: flex;
+  gap: 30px;
+}
+
+li {
+  list-style: none;
+  transition: .2s;
+}
+
+.list-item {
+  border: solid 2px black;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: .3s;
+  text-decoration: none;
+  color: black;
+}
+
+.list-item:hover {
+  background-color: black;
+  color: white;
+}
+
+li:hover {
+  transform: scale(1.1);
+}
+p {
+  margin-left: 10px;
+}
+h1 {
+  margin-left: 10px;
+}
+
+img{
+  border-radius: 100%;
+  margin-left: 10px;
+}
